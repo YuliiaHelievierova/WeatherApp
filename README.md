@@ -1,1 +1,1 @@
-# WeatherApp<br/> User may search for weather forecast at sertain geografical location with the help of application which provides information from open weather API.
+# WeatherApp<br/> A user may search for weather forecast at certain geographical location with the help of the application, which provides information from the open weather API.
