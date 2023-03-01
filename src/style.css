@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Julee", cursive;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444;
+}
+
+h1 {
+  text-align: right;
+  color: #006fff;
+}
+
+h2,
+h3 {
+  color: rgb(6, 145, 155);
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 1em;
+  object-fit: cover;
+}
+
+.background {
+  background: #e0edf8;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.fa {
+  font-size: 4em;
+  margin-right: 1em;
+  vertical-align: middle;
+}
+
+.fa-cloud-sun {
+  color: yellow;
+}
+
+.fa-cloud-sun:hover {
+  color: orange;
+  opacity: 0.8;
+}
+
+.fa-cloud {
+  color: #006fff;
+}
+
+.fa-cloud:hover {
+  color: blue;
+  opacity: 0.8;
+}
+
+.fa-cloud-rain {
+  color: darkblue;
+}
+
+.fa-cloud-rain:hover {
+  color: midnightblue;
+  opacity: 0.8;
+}
+
+.fa-cloud-bolt {
+  color: mediumblue;
+}
+
+.fa-cloud-bolt:hover {
+  color: #006fff;
+  opacity: 0.8;
+}
+
+.fa-smog {
+  color: grey;
+}
+
+.fa-smog:hover {
+  color: cadetblue;
+  opacity: 0.8;
+}
+
+.fa-tornado {
+  color: darkslategrey;
+}
+
+.fa-tornado:hover {
+  color: cornflowerblue;
+  opacity: 0.8;
+}
+
+.fa-snowflake {
+  color: silver;
+}
+
+.fa-snowflake:hover {
+  color: royalblue;
+  opacity: 0.8;
+}
+#weather-icon {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-top: 1em;
+  object-fit: cover;
+  margin: 0;
+}
+#forecast-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .container > * {
+    flex: 1 1 50%;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  .container > *:first-child {
+    margin-left: 0;
+  }
+
+  .container > *:last-child {
+    margin-right: 0;
+  }
+
+  img {
+    width: 100%;
+    max-width: 50%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 0;
+    object-fit: contain;
+  }
+
+  .icon-container {
+    justify-content: space-between;
+  }
+
+  .fa {
+    font-size: 8em;
+    margin-right: 2em;
+  }
+
+  h1 {
+    text-align: right;
+  }
+
+  h2,
+  h3 {
+    text-align: left;
+  }
+}
+#forecast-list {
+  flex-direction: row;
+}
